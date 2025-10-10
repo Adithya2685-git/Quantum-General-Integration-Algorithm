@@ -1,7 +1,7 @@
 # Generalized Quantum Integration Engine
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
-![Qiskit](https://img.shields.io/badge/Qiskit-1.0-6232E4.svg)
+![Qiskit](https://img.shields.io/badge/Qiskit-2.2.1-6232E4.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 A generalized quantum algorithm to calculate the definite integral of arbitrary mathematical functions using Iterative Quantum Amplitude Estimation (IQAE), demonstrating a quadratic speedup over classical Monte Carlo methods.
