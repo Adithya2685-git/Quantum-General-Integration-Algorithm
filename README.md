@@ -44,6 +44,7 @@ The algorithm leverages a powerful mapping between classical integration and qua
     * **Quantum Amplitude Estimation:** $M_{quantum} \approx O\left(\frac{1}{\epsilon}\right)$
 
 This quadratic difference in scaling is the source of the quantum speedup.
+    ![Speedup Plot](images/speedup_plot.png)
 
 ---
 
