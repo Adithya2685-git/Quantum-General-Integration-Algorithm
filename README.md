@@ -52,8 +52,8 @@ This quadratic difference in scaling is the source of the quantum speedup.
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone [https://github.com/Adithya2685-git/Quantum-General-Integration-Algorithm.git](https://github.com/Adithya2685-git/Quantum-General-Integration-Algorithm.git)
+    cd Quantum-General-Integration-Algorithm
     ```
 
 2.  Install the required packages:
