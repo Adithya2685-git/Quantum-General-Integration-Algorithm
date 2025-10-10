@@ -27,11 +27,11 @@ The algorithm leverages a powerful mapping between classical integration and qua
 
 3.  **Quantum Oracle:** To handle arbitrary functions, we first find a **Chebyshev polynomial approximation** of the user's function. This provides a near-optimal polynomial representation with uniformly distributed error. The plot below shows an example approximation of a target function.
 
-    ![Chebyshev Approximation Plot](images/chebyshev_approximation.png)
+    ![Chebyshev Approximation Plot of log(x) in domain [1,10] scaled to [-1,1]](images/chebyshev_approximation.png)
 
     The corresponding error of this approximation across the interval is minimal, as shown below.
 
-    ![Chebyshev Error Plot](images/chebyshev_error.png)
+    ![Chebyshev Error Plot of log(x) in [1,10] scaled to [-1,1]](images/chebyshev_error.png)
 
     The coefficients of this polynomial are then loaded into a `PolynomialPauliRotations` gate. The full state preparation circuit `A`, including the initial Hadamards and the polynomial oracle, is constructed as follows:
 
@@ -44,7 +44,7 @@ The algorithm leverages a powerful mapping between classical integration and qua
     * **Quantum Amplitude Estimation:** $M_{quantum} \approx O\left(\frac{1}{\epsilon}\right)$
 
 This quadratic difference in scaling is the source of the quantum speedup.
-    ![Speedup Plot](images/speedup_plot.png)
+    ![Speedup Plot of x**2 in domain [0,9]](images/speedup_plot.png)
 
 ---
 
