@@ -44,10 +44,3 @@ This quadratic difference in scaling is the source of the quantum speedup.
     pip install -r requirements.txt
     ```
     (You will need `qiskit`, `qiskit-aer`, `qiskit-algorithms`, `numpy`, `sympy`, `scipy`, and `matplotlib` in your `requirements.txt` file).
-
-## Usage
-
-To run an integration, execute the main script with the desired parameters.
-
-```bash
-python main.py --function "x**2" --limits 0 9 --qubits 8 --epsilon 0.01
