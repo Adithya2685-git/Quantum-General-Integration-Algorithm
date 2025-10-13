@@ -56,12 +56,6 @@ This quadratic difference in scaling is the source of the quantum speedup.
     cd Quantum-General-Integration-Algorithm
     ```
 
-2.  Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(Note: Your `requirements.txt` should include `qiskit`,`qiskit_ibm_runtime , `qiskit-aer`, `qiskit-algorithms`, `numpy`, `sympy`, `scipy`, and `matplotlib`)*.
-
 ---
 
 ## Usage
